@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html class="no-js">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<title></title>
+
+		<link rel="stylesheet" href="assets/css/normalize.css"> <!-- with box-sizing included -->
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> for responsive/mobile -->
+
+		<script src="assets/js/prefixfree.min.js"></script>
+		<script src="assets/js/conditionizr.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<h1>Hello World</h1>
+
+		<p>Lorem httpster ipsum dolor sit amet, consectetur adipisicing elit. Non beatae soluta ab laborum ea facilis fuga totam ipsam voluptates rerum similique a nisi accusamus ratione ipsa. Fugiat quia in cupiditate.</p>
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    	<script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+		
+		<script>
+			conditionizr({
+				debug      : true,
+				scriptSrc  : 'js/conditionizr/',
+				styleSrc   : 'css/conditionizr/',
+				ieLessThan : { active: true, version: '9', scripts: true, styles: true, classes: true, customScript: false},
+				chrome     : { scripts: true, styles: true, classes: true, customScript: false },
+				safari     : { scripts: true, styles: true, classes: true, customScript: false },
+				opera      : { scripts: true, styles: true, classes: true, customScript: false },
+				firefox    : { scripts: true, styles: true, classes: true, customScript: false },
+				ie10       : { scripts: true, styles: true, classes: true, customScript: false },
+				ie9        : { scripts: true, styles: true, classes: true, customScript: false },
+				ie8        : { scripts: true, styles: true, classes: true, customScript: false },
+				ie7        : { scripts: true, styles: true, classes: true, customScript: false },
+				ie6        : { scripts: true, styles: true, classes: true, customScript: false },
+				retina     : { scripts: true, styles: true, classes: true, customScript: false },
+				mac    : true,
+				win    : true,
+				x11    : true,
+				linux  : true
+			});
+		</script>
+
+		<script type="text/javascript">
+			$(document).ready( function() {
+
+			});
+
+		</script>
+
+	</body>
+
+</html>
