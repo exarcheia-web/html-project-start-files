@@ -1,0 +1,27 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 		100%;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: 			$red;
+	
+	&:hover {
+		color: 		$darkgray;
+	}
+}
