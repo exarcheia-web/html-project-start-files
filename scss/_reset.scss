@@ -1,7 +1,13 @@
+$basefontsize: 62.5%;
+
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+html {
+	font-size: $basefontsize;
 }
 
 img {
